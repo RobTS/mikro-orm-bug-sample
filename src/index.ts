@@ -1,6 +1,7 @@
-import { defineConfig, MikroORM, Reference } from '@mikro-orm/postgresql';
+import { defineConfig, MikroORM } from '@mikro-orm/postgresql';
 import { List } from "./entities/List.entity";
-import { ListItem } from "./entities/ListItem.entity"; // or any other driver package
+import { ListItem } from "./entities/ListItem.entity";
+import { Reference } from "@mikro-orm/core";
 
 const start = async () => {
   const mikroOrmConfig = defineConfig({
