@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@mikro-orm/core": "6.1.4",
-    "@mikro-orm/postgresql": "6.1.4",
+    "@mikro-orm/core": "5.9.7",
+    "@mikro-orm/postgresql": "5.9.7",
     "uuid": "9.0.1"
   },
   "devDependencies": {
